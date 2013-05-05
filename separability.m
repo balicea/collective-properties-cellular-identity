@@ -1,6 +1,10 @@
 [S, Za, Zb] = separability(k,m,n,p)
+%%
+% Seperability measure. Part of paper "Collective properties of  cellular identity: 
+% a computational approach". arXiv: 1302:0826.
+%%
 % k is the interval (rows) in matrix for replicates of cell line A, m is the interval (rows) in matrix for replicates of cell line B, 
-n is the gene of interest (column), and p is the number of genes (columns) under analysis.
+% n is the gene of interest (column), and p is the number of genes (columns) under analysis.
 %%
 A = data(k,n)
 B = data(m,n)

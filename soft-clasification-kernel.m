@@ -1,1 +1,0 @@
-% Soft classification kernel code - coming soon.
